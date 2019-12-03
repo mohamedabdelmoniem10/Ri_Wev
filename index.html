@@ -4,100 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ri_Wev</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/syle.min.css">
+    <title>RI_Wev</title>
 </head>
 <body>
-    <!-- the start of nav bar here below -->
-    <section id="home">
 
-    <div class="nav-bar" id="home">
-        <div class="links-logo">
+    
+    <header class="header" id="home">
+        <div class="up-btn"><a href="#home">&#8682;</a></div>
+
+        <nav class="nav-menu">
+            <ul class="nav-menu-ul">
+                <li class="nav-menu-li"><a href="#home">Home</a></li>
+                <li class="nav-menu-li"><a href="#about">About</a></li>
+                <li class="nav-menu-li"><a href="#vision">Vision</a></li>
+                <li class="nav-menu-li"><a href="#contact">Contact</a></li>
+                <li class="nav-menu-li">
+                    <a href="#"></a>
+                </li>
+            </ul>
             <div class="logo">
-                <a href="#home">
-                    <!-- <img src="./imgs/logo.svg" alt="Home"> -->
-                </a>
+                <h2>LOGO</h2>
             </div>
-            <div class="links">
-                <ul>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#vision">VISION</a></li>
-                    <li><a href="#subscribe">SUBSCRIBE</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="bar-img">
-            <img src="./imgs/navigation shape.svg" alt="">
-        </div>
-    </div>
+        </nav>
+    </header>
+    <!--./ end of the header section -->
 
-    <!-- here is the end of nav bar -->
-
-    <!-- here the start of home section -->
-
-        <div class="home-img">
-            <img src="./imgs/main banner.png" alt="HOME PAGE">
-        </div>
-    </section>
-    
-    
-    <!-- the end of home page -->
     <div class="clearfix"></div>
-    <!-- the start of about section -->
-    
-    <section id="about">
-        <div class="kalam-about kalam">
-            <h2>About</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque harum placeat, incidunt, ipsa expedita veniam illo tempore ex, consequatur esse         accusamus? Aliquid deleniti dolorum numquam quam itaque. Debitis, ratione facilis?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis minima dolorem tempora quos, ipsa vel ratione soluta accusantium suscipit sed iure placeat excepturi consectetur dolores sunt asperiores quisquam pariatur repudiandae.
+
+    <!-- About section start here -->
+    <section class="about-section" id="about">
+        <div class="about-section-img">
+        </div>
+        <div class="about-section-content">
+            <h2 class="content-heading">
+                ABOUT
+            </h2>
+            <p class="content-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse neque ullam molestias nesciunt numquam quaerat vero expedita doloribus, itaque sint alias eligendi magnam eum, similique facilis praesentium, animi deserunt maiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse neque ullam molestias nesciunt numquam quaerat vero expedita doloribus, itaque sint alias eligendi magnam eum, similique facilis praesentium, animi deserunt maiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse neque ullam molestias nesciunt numquam quaerat vero expedita doloribus, itaque sint alias eligendi magnam eum, similique facilis praesentium, animi deserunt maiores?
             </p>
         </div>
-        <div class="about-img">
-            <img src="./imgs/01.png" alt="About page" HSPACE=”50” VSPACE=”50”>
+            
+    </section>
+    <!--./ end of the about section -->
+    <div class="clearfix"></div>
+    <!--Vision section -->
+    <section class="vision-section" id="vision">
+        <div class="vision-section-img">
+        </div>
+        <div class="vision-section-content">
+            <h2 class="content-heading">
+                VISION
+            </h2>
+            <p class="content-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse neque ullam molestias nesciunt numquam quaerat vero expedita doloribus, itaque sint alias eligendi magnam eum, similique facilis praesentium, animi deserunt maiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse neque ullam molestias nesciunt numquam quaerat vero expedita doloribus, itaque sint alias eligendi magnam eum, similique facilis praesentium, animi deserunt maiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse neque ullam molestias nesciunt numquam quaerat vero expedita doloribus, itaque sint alias eligendi magnam eum, similique facilis praesentium, animi deserunt maiores?
+            </p>
         </div>
     </section>
-    
-    <!-- here is the end of the about section -->
-    
-    <div class="clearfix"></div>
-    <!-- start of vision section -->
-    
-    <section id="vision">
-        <div class="kalam-vision kalam">
-            <h2>Vision</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque harum placeat, incidunt, ipsa expedita veniam illo tempore ex, consequatur esse         accusamus? Aliquid deleniti dolorum numquam quam itaque. Debitis, ratione facilis?</p>
-        </div>
-        <div class="vision-img">
-            <img src="./imgs/02.png" alt="Vision page">
-        </div>
-    </section>
-    
-    <!-- here is the end of vision section  -->
-    <div class="clearfix"></div>
-    
-    <!-- start the footer section -->
-    
-    <section id="footer">
-        <div class="shape-kalam">
-            <div class="kalam-footer">
+    <!--./ end of the vision section -->
+    <!-- <div class="clearfix"></div> -->
+    <!--footer-->
+    <footer class="footer-section">
+        <div class="footer-section-img">
 
-                <form action="/">
-                <label><h1>Join</h1></label>
-                <input type="email" placeholder="enter your email">
-                <button>subscribe</button>
+        </div>
+        <div class="footer-section-shape">
+            <div class="footer-section-shape-form">
+                <form action="" method="POST">
+                    <h1>Join us</h1>
+                    <input type="email" name="email" id="contact" autocomplete="off" placeholder="Enter Your Email">
+                    <br />
+                    <button class="btn">Subscribe</button>
                 </form>
             </div>
-            <div class="shape">
-                <img src="./imgs/white shape in the footer.svg" alt="Footer">
-            </div>
         </div>
-        <div class="footer-img">
-            <img src="./imgs/footer banner.png" alt="">
-        </div>
-    </section>
+    </footer>
 
-    <!-- the end of the footer  -->
-
-    <!-- the end of the whole website -->
 </body>
 </html>

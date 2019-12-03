@@ -1,0 +1,196 @@
+.clearfix {
+  clear: both;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.header {
+  background-image: url("../imgs/main banner.png");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 115vh;
+}
+
+.header .up-btn {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 30;
+  background-color: #777;
+  -webkit-box-shadow: #fff 0px 0px 3px 1px;
+          box-shadow: #fff 0px 0px 3px 1px;
+  border-radius: 5px;
+}
+
+.header .up-btn a {
+  text-decoration: none;
+  color: #000;
+  margin: 18%;
+  font-size: 30px;
+}
+
+.nav-menu {
+  float: left;
+  width: 100%;
+  height: 23vh;
+  margin-top: -35px;
+  background-image: url("../imgs/navigation shape.svg");
+  background-size: cover;
+  background-position: left;
+}
+
+.nav-menu-ul {
+  float: right;
+  margin-top: 35px;
+  margin-right: 3rem;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-menu-li {
+  margin: 0 1rem;
+  padding-top: .5rem;
+}
+
+.nav-menu-li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.nav-menu-li a:hover {
+  text-decoration: underline;
+}
+
+.nav-menu .logo {
+  color: #000;
+  margin: 3rem 2.5rem;
+  font-size: 2rem;
+  letter-spacing: 1.5rem;
+}
+
+.nav-menu .logo h2 {
+  font-weight: 900;
+}
+
+.about-section {
+  width: 100%;
+  height: 200vh;
+}
+
+.about-section-img {
+  width: 65vw;
+  height: 300vh;
+  float: right;
+  background-image: url("../imgs/01.png");
+  background-size: cover;
+  shape-outside: polygon(600px 216px, 742px 72px, 465px 33px, 114px -6px, 922px 0px, 920px 1853px, 856px 1911px, 152px 1825px, -16px 1341px, 23px 874px, 255px 616px);
+  -webkit-clip-path: polygon(739px 68px, 522px 40px, 117px -7px, 917px -24px, 921px -4px, 921px 1911px, 161px 1824px, -40px 1316px, 12px 896px, 277px 530px);
+          clip-path: polygon(739px 68px, 522px 40px, 117px -7px, 917px -24px, 921px -4px, 921px 1911px, 161px 1824px, -40px 1316px, 12px 896px, 277px 530px);
+  shape-margin: 2em;
+}
+
+.about-section-content {
+  padding: 20px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 2;
+  font-weight: 400;
+}
+
+.vision-section {
+  width: 100%;
+  height: 200vh;
+}
+
+.vision-section-img {
+  width: 53vw;
+  height: 200vh;
+  float: left;
+  background-image: url("../imgs/02.png");
+  background-size: cover;
+  shape-outside: polygon(0px 150px, 202px -13px, 425px 65px, 503px 149px, 582px 185px, 682px 283px, 715px 510px, 196px 1263px, 546px 1504px, 1290px 1568px, 601px 1548px, 48px 1250px, 0px 1274px);
+  -webkit-clip-path: polygon(0px 157px, 78px 85px, 210px -13px, 602px 107px, 717px 268px, 713px 514px, 421px 848px, 145px 1191px, 844px 1722px, 1286px 1724px, 835px 1736px, 189px 1262px, 0px 1303px, 0px 637px);
+          clip-path: polygon(0px 157px, 78px 85px, 210px -13px, 602px 107px, 717px 268px, 713px 514px, 421px 848px, 145px 1191px, 844px 1722px, 1286px 1724px, 835px 1736px, 189px 1262px, 0px 1303px, 0px 637px);
+  shape-margin: 1.8em;
+}
+
+.vision-section-content {
+  padding: 25px;
+  font-size: 32px;
+  letter-spacing: 2px;
+  line-height: 2;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  width: 100%;
+  height: 200vh;
+  position: relative;
+}
+
+.footer-section-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("../imgs/footer banner.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-section-shape {
+  width: 70%;
+  height: 43%;
+  background-image: url("../imgs/white shape in the footer.svg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer-section-shape-form {
+  position: absolute;
+  bottom: 35%;
+  right: 25%;
+}
+
+.footer-section-shape-form h1 {
+  color: #000;
+  font-size: 4rem;
+}
+
+.footer-section-shape-form input {
+  border: none;
+  background-color: #464545;
+  color: #fff;
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+}
+
+.footer-section-shape-form .btn {
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+/*# sourceMappingURL=syle.css.map */
